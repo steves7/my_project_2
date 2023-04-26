@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda De telefones</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/agenda.png" alt="telefone">
+            <h1>Agenda De Telefones</h1>
+        </header>
+        <form id="form-contato">
+            <input type="text" name="nome" id="nome-contato" maxlenght="50" placeholder="Nome" required/>
+            <input type="text" name="telefone" id="numero-contato" maxlength="50" placeholder="Número" required/>
+            <button type="submit">Adicionar Contato</button>
+        </form>
+        <table id="agenda" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Contato</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
